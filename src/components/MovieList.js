@@ -12,7 +12,6 @@ export default function MovieList({movies, handleFavorite}) {
                    <Button onClick={() => handleFavorite(movie)}>
                       <FavoriteIcon />                       
                    </Button>
-                   {/* <FavoriteBorderIcon onClick={addToFavorite(movie.Title)} />        */}
                 </div>
             })
         }

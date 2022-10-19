@@ -50,7 +50,6 @@ function App() {
     <div>
     <MovieListHeading heading="Favorites" /> 
     <MovieList movies={favorites} handleFavorite={removeFromFavorites} />
-
     </div>
     </div>
   );

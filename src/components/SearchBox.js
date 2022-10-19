@@ -8,5 +8,5 @@ export default function SearchBox({searchValue, setSearchValue}) {
         <input type="text" value={searchValue} placeholder={`Search any movie...`} 
         onChange={(e) => setSearchValue(e.target.value) } className='search-text'/> 
     </div>
-  ) 
+  )
 }
