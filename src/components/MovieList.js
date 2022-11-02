@@ -12,8 +12,7 @@ export default function MovieList({movies, handleFavorite}) {
                    <Button onClick={() => handleFavorite(movie)}>
                       <FavoriteIcon />                       
                    </Button>
-                </div>
-                
+              </div>
             })
         }
     </div> 
