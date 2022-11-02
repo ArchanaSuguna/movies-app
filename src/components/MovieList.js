@@ -13,6 +13,7 @@ export default function MovieList({movies, handleFavorite}) {
                       <FavoriteIcon />                       
                    </Button>
                 </div>
+                
             })
         }
     </div> 
